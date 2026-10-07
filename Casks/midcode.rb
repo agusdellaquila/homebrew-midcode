@@ -1,9 +1,9 @@
 cask "midcode" do
   arch arm: "arm64", intel: "x64"
 
-  version "2.0.0"
-  sha256 arm:   "00fc7e92bd0c5df3499dfc727fa6ad9c7e3426819b178a7f55607622ab2c616c",
-         intel: "736a15724b8337256fb5c9099f55bcc6c7e826eb4505ce700975c6f78acd630d"
+  version "2.1.0"
+  sha256 arm:   "000ec98814f835c5b8b28e010e68bac9894dc2ad7a746b46e8d5bfb3bc6ff1fa",
+         intel: "0ab8444e4dd1f1d5170336ea81f94d72e5f5cf55d6380fc6d6d8a30f28200fdb"
 
   url "https://github.com/agusdellaquila/midcode/releases/download/v#{version}/midcode-#{version}-#{arch}.dmg"
   name "midcode"
